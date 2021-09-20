@@ -7,4 +7,3 @@ function solution(N) {
     const lenArr = x.map(s => s.length); // map zeros to zero length
     return Math.max(...lenArr) // returns the max len zeros
 }
-}
